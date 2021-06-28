@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blich</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
+</head>
+
+<body>
+    <div class="nav right">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="about.html">About</a>
+    </div>
+    <img id=logo src="imgs/logo.png" alt="not found">
+    <div class="wrapper">
+        <label id="welcome">Registration</label>
+    </div>
+    <div class="container">
+        <form id="my-form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Name" name="name" id="name" required>
+            </br>
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            </br>
+            <label for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+            </br>
+            <button id="submit" type="submit" class="registerbtn">Register</button>
+        </form>
+        <ul id="users"></ul>
+    </div>
+
+</body>
+<script src="code.js"></script>
+
+</html>
